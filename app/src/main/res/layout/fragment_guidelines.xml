@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="?android:windowBackground">
+
+    <RelativeLayout
+        android:id="@+id/guidelines_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvGuidelinesIntroductionTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="INTRODUCTION TO CLASSIFICATION GUIDELINES"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:background="#ef4444"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvGuidelinesIntroduction"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGuidelinesIntroductionTitle"
+            android:text="@string/guidelines_introduction"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:background="#ececec"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvGuidelinesClassificationsTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CLASSIFICATION AND CONSUMER ADVICE"
+            android:textColor="#fff"
+            android:layout_below="@id/tvGuidelinesIntroduction"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:background="#ef4444"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvGuidelinesClassifications"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGuidelinesClassificationsTitle"
+            android:text="@string/guidelines_classifications"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            android:background="#ececec"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvGuidelinesContextTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTEXT/TONE"
+            android:textColor="#fff"
+            android:layout_below="@id/tvGuidelinesClassifications"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:background="#ef4444"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvGuidelinesContext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGuidelinesContextTitle"
+            android:text="@string/guidelines_context"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            android:background="#ececec"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvGuidelinesTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="GUIDELINES"
+            android:textColor="#fff"
+            android:layout_below="@id/tvGuidelinesContext"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:background="#ef4444"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvGuidelines"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGuidelinesTitle"
+            android:text="@string/guidelines"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            android:background="#ececec"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tvGuidelinesFilmTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="FILM GUIDELINES"
+            android:textColor="#fff"
+            android:layout_below="@id/tvGuidelines"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:background="#ef4444"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/rlFilmGuidelines"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGuidelinesFilmTitle"
+            android:background="#ececec"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/ivFilmGuidelinesG"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/rating_g"/>
+
+            <ImageView
+                android:id="@+id/ivFilmGuidelinesPG"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@id/ivFilmGuidelinesG"
+                android:src="@drawable/rating_pg"/>
+
+            <ImageView
+                android:id="@+id/ivFilmGuidelines12A"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@id/ivFilmGuidelinesPG"
+                android:src="@drawable/rating_12a"/>
+
+            <ImageView
+                android:id="@+id/ivFilmGuidelines15A"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@id/ivFilmGuidelines12A"
+                android:src="@drawable/rating_15a"/>
+
+            <ImageView
+                android:id="@+id/ivFilmGuidelines16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@id/ivFilmGuidelines15A"
+                android:src="@drawable/rating_16"/>
+
+            <ImageView
+                android:id="@+id/ivFilmGuidelines18"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@id/ivFilmGuidelines16"
+                android:src="@drawable/rating_18"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvGuidelinesDVDTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="DVD/VIDEO GUIDELINES"
+            android:textColor="#fff"
+            android:layout_below="@id/rlFilmGuidelines"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-medium"
+            android:background="#ef4444"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/rlDVDGuidelines"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/tvGuidelinesDVDTitle"
+            android:background="#ececec"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/ivDVDGuidelinesG"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/rating_dvd_g"/>
+
+            <ImageView
+                android:id="@+id/ivDVDGuidelinesPG"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="27dp"
+                android:layout_toRightOf="@id/ivDVDGuidelinesG"
+                android:src="@drawable/rating_dvd_pg"/>
+
+            <ImageView
+                android:id="@+id/ivDVDGuidelines12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="27dp"
+                android:layout_toRightOf="@id/ivDVDGuidelinesPG"
+                android:src="@drawable/rating_dvd_12"/>
+
+            <ImageView
+                android:id="@+id/ivDVDGuidelines15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="27dp"
+                android:layout_toRightOf="@id/ivDVDGuidelines12"
+                android:src="@drawable/rating_dvd_15"/>
+
+            <ImageView
+                android:id="@+id/ivDVDGuidelines18"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="27dp"
+                android:layout_toRightOf="@id/ivDVDGuidelines15"
+                android:src="@drawable/rating_dvd_18"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
+ </ScrollView>

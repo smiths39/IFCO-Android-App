@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    tools:context=".NewReleases">
+
+    <TextView
+        android:id="@+id/tvNewReleasesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="New Releases"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <View
+        android:id="@+id/vNewReleases"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/tvNewReleasesTitle"
+        android:background="#a4a4a4" />
+
+    <ListView
+        android:id="@+id/lvNewReleases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/vNewReleases"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/listview_row_selector"/>
+
+</RelativeLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/ratings_fragment"
+    android:background="#ececec">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="?android:windowBackground">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ececec">
+
+        <RelativeLayout
+            android:id="@+id/rlRatingGuidelineTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black">
+
+            <ImageView
+                android:id="@+id/ivRatingGuideline"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesTitle"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="14dp"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-medium"
+                android:padding="10dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvRatingGuidelinesIntroduction"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlRatingGuidelineTitle"
+            android:textColor="#000"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:background="#ececec"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/rlGuidelinesContent"
+            android:layout_below="@id/tvRatingGuidelinesIntroduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesThemeTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Theme"
+                android:textColor="#ef4444"
+                android:textSize="20dp"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesTheme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvRatingGuidelinesThemeTitle"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-light"
+                android:background="#ececec"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesViolenceTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Violence"
+                android:textColor="#ef4444"
+                android:layout_below="@id/tvRatingGuidelinesTheme"
+                android:textSize="20dp"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesViolence"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvRatingGuidelinesViolenceTitle"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-light"
+                android:background="#ececec"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesSexualContentTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sexual Content"
+                android:textColor="#ef4444"
+                android:layout_below="@id/tvRatingGuidelinesViolence"
+                android:textSize="20dp"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesSexualContent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvRatingGuidelinesSexualContentTitle"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-light"
+                android:background="#ececec"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesLanguageTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:textColor="#ef4444"
+                android:layout_below="@id/tvRatingGuidelinesSexualContent"
+                android:textSize="20dp"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesLanguage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvRatingGuidelinesLanguageTitle"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-light"
+                android:background="#ececec"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesDrugsTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Drugs"
+                android:textColor="#ef4444"
+                android:layout_below="@id/tvRatingGuidelinesLanguage"
+                android:textSize="20dp"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesDrugs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvRatingGuidelinesDrugsTitle"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-light"
+                android:background="#ececec"
+                android:padding="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlGuidelinesNotes"
+            android:layout_below="@id/rlGuidelinesContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesNoteTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Note"
+                android:textColor="#ef4444"
+                android:textSize="20dp"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tvRatingGuidelinesNote"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvRatingGuidelinesNoteTitle"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-light"
+                android:background="#ececec"
+                android:padding="10dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

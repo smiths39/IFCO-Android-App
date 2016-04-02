@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".News">
+
+    <RelativeLayout
+        android:id="@+id/rlNewsBody"
+        android:background="#ef4444"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/rlNews2015Survey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2015Survey"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_survey_2015"/>
+
+            <TextView
+                android:id="@+id/tvNews2015SurveyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2015Survey"
+                android:text="@string/survey_2015_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2015Survey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2015SurveyTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2015Survey"
+                android:text="@string/survey_2015_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsSchoolsFocusGroups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2015Survey"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsSchoolsFocusGroups"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="15dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_schools"/>
+
+            <TextView
+                android:id="@+id/tvNewsSchoolsFocusGroupsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsSchoolsFocusGroups"
+                android:text="@string/school_groups_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsSchoolsFocusGroups"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsSchoolsFocusGroupsTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsSchoolsFocusGroups"
+                android:text="@string/school_focus_group_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2013Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsSchoolsFocusGroups"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2013Report"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_report_2013"/>
+
+            <TextView
+                android:id="@+id/tvNews2013ReportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2013Report"
+                android:text="@string/survey_2013_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2013Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2013ReportTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2013Report"
+                android:text="@string/survey_2013_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsParentalAttitudes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2013Report"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsParentalAttitudes"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_survey_2013"/>
+
+            <TextView
+                android:id="@+id/tvNewsParentalAttitudesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsParentalAttitudes"
+                android:text="@string/parental_attitudes_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsParentalAttitudes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsParentalAttitudesTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsParentalAttitudes"
+                android:text="@string/parental_attitudes_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2012Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsParentalAttitudes"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2012Report"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_report_2012"/>
+
+            <TextView
+                android:id="@+id/tvNews2012ReportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2012Report"
+                android:text="@string/survey_2012_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2012Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2012ReportTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2012Report"
+                android:text="@string/survey_2012_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2011Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2012Report"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2011Report"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_report_2011"/>
+
+            <TextView
+                android:id="@+id/tvNews2011ReportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2011Report"
+                android:text="@string/survey_2011_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2011Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2011ReportTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2011Report"
+                android:text="@string/survey_2011_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2010Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2011Report"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2010Report"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_report_2010"/>
+
+            <TextView
+                android:id="@+id/tvNews2010ReportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2010Report"
+                android:text="@string/survey_2010_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2010Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2010ReportTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2010Report"
+                android:text="@string/survey_2010_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsOfficeofOmbudsman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2010Report"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsOfficeofOmbudsman"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_ombudsman_office"/>
+
+            <TextView
+                android:id="@+id/tvNewsOfficeofOmbudsmanTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsOfficeofOmbudsman"
+                android:text="@string/office_of_ombudsman_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsOfficeofOmbudsman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsOfficeofOmbudsmanTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsOfficeofOmbudsman"
+                android:text="@string/office_of_ombudsman_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsOfficeOmbudsmanChildren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsOfficeofOmbudsman"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsOfficeOmbudsmanChildren"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-40dp"
+                android:src="@drawable/news_ombudsman_children"/>
+
+            <TextView
+                android:id="@+id/tvNewsOfficeOmbudsmanChildrenTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsOfficeOmbudsmanChildren"
+                android:text="@string/office_of_ombudsman_children_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsOfficeOmbudsmanChildren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsOfficeOmbudsmanChildrenTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsOfficeOmbudsmanChildren"
+                android:text="@string/office_of_ombudsman_children_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsClassificationForKids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsOfficeOmbudsmanChildren"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsClassificationForKids"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_clasification_kids"/>
+
+            <TextView
+                android:id="@+id/tvNewsClassificationForKidsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsClassificationForKids"
+                android:text="@string/classification_young_kids_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsClassificationForKids"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsClassificationForKidsTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsClassificationForKids"
+                android:text="@string/classification_young_kids_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsClassificationGuidelines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsClassificationForKids"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsClassificationGuidelines"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_clasification_guidelines"/>
+
+            <TextView
+                android:id="@+id/tvNewsClassificationGuidelinesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsClassificationGuidelines"
+                android:text="@string/classification_guidelines_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsClassificationGuidelines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsClassificationGuidelinesTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsClassificationGuidelines"
+                android:text="@string/classification_guidelines_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2009Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsClassificationGuidelines"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2009Report"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_clasification_guidelines"/>
+
+            <TextView
+                android:id="@+id/tvNews2009ReportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2009Report"
+                android:text="@string/survey_2009_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2009Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2009ReportTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2009Report"
+                android:text="@string/survey_2009_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsMinisterForJustice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2009Report"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsMinisterForJustice"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_minister_for_justice"/>
+
+            <TextView
+                android:id="@+id/tvNewsMinisterForJusticeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsMinisterForJustice"
+                android:text="@string/minister_for_justice_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsMinisterForJustice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsMinisterForJusticeTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsMinisterForJustice"
+                android:text="@string/minister_for_justice_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2008Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsMinisterForJustice"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2008Report"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_report_2008"/>
+
+            <TextView
+                android:id="@+id/tvNews2008ReportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2008Report"
+                android:text="@string/survey_2008_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2008Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2008ReportTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2008Report"
+                android:text="@string/survey_2008_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2008NameChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2008Report"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2008NameChange"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_ifco_name_change"/>
+
+            <TextView
+                android:id="@+id/tvNews2008NameChangeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2008NameChange"
+                android:text="@string/name_change_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2008NameChange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2008NameChangeTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2008NameChange"
+                android:text="@string/name_change_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2007Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2008NameChange"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2007Report"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_report_2007"/>
+
+            <TextView
+                android:id="@+id/tvNews2007ReportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2007Report"
+                android:text="@string/survey_2007_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2007Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2007ReportTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2007Report"
+                android:text="@string/survey_2007_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsManhunt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2007Report"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsManhunt2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_manhunt_game"/>
+
+            <TextView
+                android:id="@+id/tvNewsManhunt2Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsManhunt2"
+                android:text="@string/manhunt_game_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsManhunt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsManhunt2Title"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsManhunt2"
+                android:text="@string/manhunt_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2006Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsManhunt2"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2006Report"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_report_2006"/>
+
+            <TextView
+                android:id="@+id/tvNews2006ReportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2006Report"
+                android:text="@string/survey_2006_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2006Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2006ReportTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2006Report"
+                android:text="@string/survey_2006_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2005Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2006Report"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2005Report"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_report_2005"/>
+
+            <TextView
+                android:id="@+id/tvNews2005ReportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2005Report"
+                android:text="@string/survey_2005_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2005Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2005ReportTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2005Report"
+                android:text="@string/survey_2005_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsFilmCensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2005Report"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsFilmCensor"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_film_censor"/>
+
+            <TextView
+                android:id="@+id/tvNewsFilmCensorTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsFilmCensor"
+                android:text="@string/film_center_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsFilmCensor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsFilmCensorTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsFilmCensor"
+                android:text="@string/film_censor_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsBoyEatsGirl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsFilmCensor"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsBoyEatsGirl"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_boy_vs_girl"/>
+
+            <TextView
+                android:id="@+id/tvNewsBoyEatsGirlTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsBoyEatsGirl"
+                android:text="@string/boy_eats_girl_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsBoyEatsGirl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsBoyEatsGirlTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsBoyEatsGirl"
+                android:text="@string/boy_eats_girl_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsHappyBirthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsBoyEatsGirl"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsHappyBirthday"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_happy_birthday"/>
+
+            <TextView
+                android:id="@+id/tvNewsHappyBirthdayTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsHappyBirthday"
+                android:text="@string/happy_birthday_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsHappyBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsHappyBirthdayTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsHappyBirthday"
+                android:text="@string/happy_birthday_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNews2004Report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsHappyBirthday"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNews2004Report"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_report_2004"/>
+
+            <TextView
+                android:id="@+id/tvNews2004ReportTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNews2004Report"
+                android:text="@string/survey_2004_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNews2004Report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNews2004ReportTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNews2004Report"
+                android:text="@string/survey_2004_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsChangesToCertificates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNews2004Report"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsChangesToCertificates"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_change_to_certs"/>
+
+            <TextView
+                android:id="@+id/tvNewsChangesToCertificatesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsChangesToCertificates"
+                android:text="@string/changes_to_certs_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsChangesToCertificates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsChangesToCertificatesTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsChangesToCertificates"
+                android:text="@string/changes_to_certs_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsAdolescentsSurvey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsChangesToCertificates"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsAdolescentsSurvey"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_adolescents_survey"/>
+
+            <TextView
+                android:id="@+id/tvNewsAdolescentsSurveyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsAdolescentsSurvey"
+                android:text="@string/adolescents_survey_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsAdolescentsSurvey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsAdolescentsSurveyTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsAdolescentsSurvey"
+                android:text="@string/adolescent_survey_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsParentSurvey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsAdolescentsSurvey"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsParentSurvey"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_survey_parents"/>
+
+            <TextView
+                android:id="@+id/tvNewsParentSurveyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsParentSurvey"
+                android:text="@string/parents_survey_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsParentSurvey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsParentSurveyTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsParentSurvey"
+                android:text="@string/parent_survey_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlNewsWebsiteLaunched"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlNewsParentSurvey"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white">
+
+            <ImageView
+                android:id="@+id/ivNewsWebsiteLaunched"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="10dp"
+                android:layout_marginTop="-20dp"
+                android:src="@drawable/news_website_launched"/>
+
+            <TextView
+                android:id="@+id/tvNewsWebsiteLaunchedTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivNewsWebsiteLaunched"
+                android:text="@string/website_launched_title"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvNewsWebsiteLaunched"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNewsWebsiteLaunchedTitle"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/ivNewsWebsiteLaunched"
+                android:text="@string/website_launched_message"
+                android:textSize="12dp"
+                android:gravity="left"
+                android:fontFamily="sans-serif"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
